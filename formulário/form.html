@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<form>
+<h1>Formulário</h1>
+<fieldset style="width: 13px;">
+<legend><b>DADOS PESSOAIS</b></legend>
+<label for="Pnome">Primeiro Nome:</label><br>
+<input type="text" id="Pnome" name="Pnome"><br>
+<label for="Unome">Ultimo Nome:</label><br>
+<input type="text" id="Unome" name="Unome"><br>
+</form>
+
+<label for="Dnascimento">Data de Nascimento:</label><br>
+<input type="date" id="Dnascimento" name="Dnascimento"><br>
+<label for="Email">Email:</label><br>
+<input type="email" id="Email" name="Email"><br>
+
+<label for="Telefone">Telefone:</label><br>
+<input type="tel" id="Telefone" name="Telefone"><br>
+</fieldset>
+<fieldset style="width: 30px;">
+    <legend>Dados Acadêmicos</legend>
+    <select name="Curso">
+<option value="10">ADS</option>
+<option value="20">GTI</option><br>
+<option value="30>">TBT</option><br>
+<option value="30>">TSI</option><br>
+</select><br>
+
+    <input type="radio">1º semestre<br>
+    <input type="radio">2º semestre<br>
+    <input type="radio">3º semestre<br>
+    <input type="radio">4º semestre<br>
+</select>
+</fieldset>
+<fieldset>
+    <label for="Trabalha">Trabalha?</label>
+    <input type="radio" id="Trabalha" name="Trabalha">Sim
+    <input type="radio">Não<br>
+    <label for="Ltrabalho">Local de Trabalho</label>
+    <input type="text" id="Ltrabalho" name="Ltrabalho"><br>
+    <label for="DExp">Descreva sua Experiência</label><br>
+    <textarea id="DExp" name="DExp"></textarea>
+</fieldset>
+<input type="reset">
+<input type="submit">
+</body>
+</html>
